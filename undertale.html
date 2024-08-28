@@ -1,0 +1,33 @@
+<html>
+    <html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <title>Undertale Adventure</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-ruinas" alt="">
+            <p>Você, um humano, estava vagando sozinho por uma floresta sem objetivo algum, quando de repente você tropeça na raiz de uma árvore a cai sobre um profundo buraco quase sem fim. Ao cair você se encontra nas Ruínas povoadas por criaturas e então decide adentrar. Seu objetivo agora é sair das Ruínas.</p>
+            <button class="btn-proximo" data-proximo="1">Corredor escuro das Ruínas</button>
+            <button class="btn-proximo" data-proximo="2">Seguir sem rumo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao entrar no correrdor obscuro quase nada é avistado nem escutado, porém caminhando você enxerga luz e uma figura logo a frente. Era uma flor que se identificava como Flower e parecia estar interagindo com você.</p>
+            <button class="btn-proximo" data-proximo="3">Conversar com Flower</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar Flower</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você coloca toda sua fé em um único caminho, decidindo andar reto sem reparar em outras passagens. Você acaba ficando cansado e decide parar, porém ao seu lado havia uma flor cujo nome se dizia Flower.</p>
+            <button class="btn-proximo" data-proximo="5">Pedir ajuda ao Flower</button>
+            <button class="btn-proximo" data-proximo="6">Ameaçar Flower</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
